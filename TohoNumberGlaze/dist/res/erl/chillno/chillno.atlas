@@ -1,0 +1,75 @@
+
+chillno.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+base
+  rotate: false
+  xy: 2, 312
+  size: 629, 696
+  orig: 640, 705
+  offset: 11, 9
+  index: -1
+chest
+  rotate: false
+  xy: 633, 700
+  size: 111, 102
+  orig: 111, 104
+  offset: 0, 2
+  index: -1
+left-wing
+  rotate: false
+  xy: 633, 804
+  size: 218, 204
+  orig: 219, 215
+  offset: 0, 8
+  index: -1
+mouth
+  rotate: false
+  xy: 853, 949
+  size: 145, 59
+  orig: 145, 61
+  offset: 0, 1
+  index: -1
+mouth-2
+  rotate: true
+  xy: 170, 23
+  size: 81, 19
+  orig: 90, 23
+  offset: 4, 2
+  index: -1
+right-hand
+  rotate: false
+  xy: 2, 2
+  size: 166, 102
+  orig: 170, 102
+  offset: 4, 0
+  index: -1
+right-hand-2
+  rotate: false
+  xy: 236, 168
+  size: 96, 142
+  orig: 97, 142
+  offset: 0, 0
+  index: -1
+right-wing
+  rotate: false
+  xy: 2, 106
+  size: 232, 204
+  orig: 242, 220
+  offset: 2, 4
+  index: -1
+
+chillno2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ribon
+  rotate: false
+  xy: 2, 2
+  size: 593, 530
+  orig: 621, 547
+  offset: 22, 8
+  index: -1

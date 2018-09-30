@@ -1,0 +1,99 @@
+{
+"skeleton": { "hash": "kArhHOhGhLsjdrdUbH/R2Lq7SF4", "spine": "3.6.53", "width": 713.97, "height": 772.34, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "left-wing", "parent": "root", "length": 199.04, "rotation": -24.92, "x": 92.54, "y": -140.73 },
+	{ "name": "ribon", "parent": "root", "length": 328.63, "rotation": 90.85, "x": 66.68, "y": 30.48 },
+	{ "name": "right-wing", "parent": "root", "length": 193.48, "rotation": -158, "x": -78.27, "y": -146.24 }
+],
+"slots": [
+	{ "name": "left-wing", "bone": "left-wing", "attachment": "left-wing" },
+	{ "name": "right-wing", "bone": "right-wing", "attachment": "right-wing" },
+	{ "name": "ribon", "bone": "ribon", "attachment": "ribon" },
+	{ "name": "base", "bone": "root", "attachment": "base" },
+	{ "name": "right-hand", "bone": "root", "attachment": "right-hand-2" },
+	{ "name": "chest", "bone": "root", "attachment": "chest" },
+	{ "name": "mouth", "bone": "root", "attachment": "mouth-2" }
+],
+"skins": {
+	"default": {
+		"base": {
+			"base": { "width": 640, "height": 705 }
+		},
+		"chest": {
+			"chest": { "x": -9.72, "y": -142.96, "width": 111, "height": 104 }
+		},
+		"left-wing": {
+			"left-wing": { "x": 140.29, "y": 4.88, "rotation": 25.79, "width": 219, "height": 215 }
+		},
+		"mouth": {
+			"mouth": { "x": -12.3, "y": -74.35, "width": 145, "height": 61 },
+			"mouth-2": { "x": -12.3, "y": -74.35, "width": 90, "height": 23 }
+		},
+		"ribon": {
+			"ribon": { "x": 115.59, "y": -18.51, "rotation": -90.85, "width": 621, "height": 547 }
+		},
+		"right-hand": {
+			"right-hand": { "x": -127.24, "y": -114.5, "width": 170, "height": 102 },
+			"right-hand-2": { "x": -75.99, "y": -161.65, "width": 97, "height": 142 }
+		},
+		"right-wing": {
+			"right-wing": { "x": 96.65, "y": -8.25, "rotation": 160.02, "width": 242, "height": 220 }
+		}
+	}
+},
+"animations": {
+	"float": {
+		"bones": {
+			"left-wing": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1, "angle": 14.58 },
+					{ "time": 2, "angle": 0 },
+					{ "time": 3, "angle": 14.58 },
+					{ "time": 4, "angle": 0 }
+				]
+			},
+			"right-wing": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1, "angle": -19.25 },
+					{ "time": 2, "angle": 0 },
+					{ "time": 3, "angle": -19.25 },
+					{ "time": 4, "angle": 0 }
+				]
+			},
+			"ribon": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1, "angle": -2.29 },
+					{ "time": 1.1667, "angle": 0 }
+				]
+			},
+			"root": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 1, "x": 0, "y": 100 },
+					{ "time": 2, "x": 0, "y": 0 },
+					{ "time": 3, "x": 0, "y": -100 },
+					{ "time": 4, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"spell": {
+		"slots": {
+			"mouth": {
+				"attachment": [
+					{ "time": 0, "name": "mouth" }
+				]
+			},
+			"right-hand": {
+				"attachment": [
+					{ "time": 0, "name": "right-hand" }
+				]
+			}
+		}
+	}
+}
+}
